@@ -1,2 +1,4 @@
 #!/bin/bash
-DEBUG=sean-monroe:* npm start
+pkill npm
+DEBUG=sean-monroe:* npm start &
+
