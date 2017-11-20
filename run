@@ -1,4 +1,6 @@
 #!/bin/bash
-pkill npm
-DEBUG=sean-monroe:* npm start &
+tmux send -t SEANMONROE pkill\ npm ENTER
+tmux send -t SEANMONROE DEBUG=sean-monroe:*\ npm\ start ENTER
+#pkill npm
+#DEBUG=sean-monroe:* npm start &
 
