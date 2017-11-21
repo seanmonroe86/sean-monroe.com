@@ -1,7 +1,7 @@
 #!/bin/bash
 #tmux send -t SEANMONROE pkill\ npm ENTER
 tmux send -t SEANMONROE ^C ENTER
-tmux send -t SEANMONROE DEBUG=sean-monroe:*\ npm\ start ENTER
+tmux send -t SEANMONROE DEBUG=sean-monroe:*\ npm\ run\ devstart ENTER
 #pkill npm
 #DEBUG=sean-monroe:* npm start &
 
