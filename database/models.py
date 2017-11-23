@@ -6,4 +6,9 @@ class NavItem(models.Model):
     description = models.CharField(max_length = 200)
     index = models.IntegerField(default = 0)
 
+class Account(models.Model):
+    username = models.CharField(max_length = 30)
+    password = models.CharField(max_length = 256)
+    acct_lvl = models.CharField(max_length = 10,
+                                default = 'user')
 
